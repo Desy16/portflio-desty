@@ -1,9 +1,13 @@
-import '../../App.css';
+import React from 'react';
+import Header from '../header';
+import '../../normalize.css';
+import '../../grid.css';
+import '../../style.css';
 
 function App() {
   return (
-    <div className="App">
-      Hello world !
+    <div>
+      <Header />
     </div>
   );
 }
