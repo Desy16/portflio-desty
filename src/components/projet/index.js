@@ -1,16 +1,16 @@
 import React from 'react';
 
+const Projet = () => {
 
-const Footer = () => {
     return (
         <div>
             <section>
                 <div className="row">
-                    Footer !
+                    Projet !
                 </div>
             </section>
         </div>
-    )
+    );
 }
 
-export default Footer;
+export default Projet;

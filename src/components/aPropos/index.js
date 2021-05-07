@@ -1,16 +1,17 @@
 import React from 'react';
 
 
-const Footer = () => {
+const Apropos = () => {
+
     return (
         <div>
             <section>
                 <div className="row">
-                    Footer !
+                    A propos !
                 </div>
             </section>
         </div>
-    )
+    );
 }
 
-export default Footer;
+export default Apropos;

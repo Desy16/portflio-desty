@@ -1,16 +1,16 @@
 import React from 'react';
 
 
-const Footer = () => {
+const ErrorPage = () => {
     return (
         <div>
             <section>
                 <div className="row">
-                    Footer !
+                    Error !
                 </div>
             </section>
         </div>
     )
 }
 
-export default Footer;
+export default ErrorPage;
