@@ -10,7 +10,7 @@
 
 html {
     background-color: #fff;
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'lato', 'Arial', sans-serif;
     font-weight: 300;
     text-rendering: optimizeLegibility;
@@ -69,16 +69,15 @@ section {
 
 /*---- HEADINGS -----*/
 
-/*h1, h2, h3 {
-    
-}*/
+h1, h2, h3 {
+    color: #000;
+}
 
 
 h1 {
     font-size: 240%;
     margin-left: 0%;
     word-spacing: 3px;
-    color: #000;
     font-weight: bold;
     line-height: 80px;
     width: 100%;
@@ -92,22 +91,26 @@ h2 {
     font-size: 120%;
     text-align: center;
     margin-top: 20px;
+    text-transform: uppercase;
 }
 
 h3 {
-    font-size: 50%;
-    margin-bottom: 20px;
+    font-size: 70%;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
-/*h2:after {
+h2:after {
     display: block;
     height: 2px;
     width: 100px;
-    background-color: #e67e22;
+    background-color: #2596be;
     content: " ";
     margin: 0 auto;
     margin-top: 20px;
-}*/
+    margin-bottom: 50px;
+}
 
 /*---- PARAGRAPHS -----*/
 
@@ -221,7 +224,20 @@ h3 {
     border-bottom: 2px solid #2596be;
 }
 
+/*-----------------------------------*/
+/*PROJETS*/
+/*-----------------------------------*/
+.projet-details {
+    line-height: 145%;
+}
 
+.objectif, .biblio, .techno {
+    font-style: italic;
+}
+
+.carBorder {
+    border: 1px solid red;
+}
 /*-----------------------------------*/
 /*FEATURES*/
 /*-----------------------------------*/

@@ -5,6 +5,7 @@ import Footer from '../footer';
 import Projet from '../projet';
 import Landing from '../landing';
 import ErrorPage from '../errorPage';
+import { IconContext } from 'react-icons';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import '../../normalize.css';
@@ -14,15 +15,17 @@ import '../../style.css';
 function App() {
   return (
     <Router>
-      <Header />
+      <IconContext.Provider value={{ style: { verticalAlign: 'middle' } }}>
+        <Header />
 
-      <Switch>
-        <Route path="/projets" component={Projet} />
-        <Route path="/apropos" component={Apropos} />
-        <Route exact path="/" component={Landing} />
-        <Route component={ErrorPage} />
-      </Switch>
+        <Switch>
+          <Route path="/projets" component={Projet} />
+          <Route path="/apropos" component={Apropos} />
+          <Route exact path="/" component={Landing} />
+          <Route component={ErrorPage} />
+        </Switch>
 
+      </IconContext.Provider>
     </Router>
   );
 }
