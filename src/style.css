@@ -101,6 +101,11 @@ h3 {
     font-weight: bold;
 }
 
+div link {
+    text-decoration: none;
+    color: red;
+}
+
 h2:after {
     display: block;
     height: 2px;

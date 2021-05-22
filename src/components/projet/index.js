@@ -11,7 +11,7 @@ const Projet = () => {
         <div>
             <section className="section-projets">
                 <div className="row">
-                    <h2>projets universitaires</h2>
+                    <h2 className="projet">projets universitaires</h2>
                 </div>
 
                 <div className="row">
@@ -33,7 +33,7 @@ const Projet = () => {
                     </div>
                     <div className="col span_1_of_2">
                         <h3>
-                            <Link to="#"><FaGithub />  data one piece</Link>
+                            <Link to="https://github.com/Desy16/onepiece-api-data"><FaGithub />  data one piece</Link>
                         </h3>
                         <div className="projet-details">
                             <p>
