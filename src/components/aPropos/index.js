@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Footer from '../footer';
 
 const Apropos = () => {
 
@@ -37,6 +37,8 @@ const Apropos = () => {
                     </div>
                 </div>
             </section>
+
+            <Footer />
         </div>
     );
 }

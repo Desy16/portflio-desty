@@ -1,7 +1,6 @@
 import React from 'react';
 import Apropos from '../aPropos';
 import Header from '../header';
-import Footer from '../footer';
 import Projet from '../projet';
 import Landing from '../landing';
 import ErrorPage from '../errorPage';
