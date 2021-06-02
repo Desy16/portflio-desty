@@ -50,14 +50,12 @@ section {
 /*HEADER*/
 /*-----------------------------------*/
 
-/*header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-}*/
+header {
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
 
-.port-text-box {
+.label-welcome {
     position: absolute;
     width: 1140px;
     top: 50%;
@@ -75,27 +73,29 @@ h1, h2, h3 {
 
 
 h1 {
-    font-size: 240%;
+    font-size: 250%;
     margin-left: 0%;
     word-spacing: 3px;
-    font-weight: bold;
+    font-weight: 600;
     line-height: 80px;
     width: 100%;
     max-width: 150%;
+    letter-spacing: 1px;
+    word-spacing: 3px;
 }
 
 
 h2 {
     letter-spacing: 1px;
     word-spacing: 1px;
-    font-size: 120%;
+    font-size: 130%;
     text-align: center;
     margin-top: 20px;
     text-transform: uppercase;
 }
 
 h3 {
-    font-size: 70%;
+    font-size: 80%;
     margin-bottom: 12px;
     text-transform: uppercase;
     font-weight: bold;
@@ -127,16 +127,17 @@ h2:after {
     margin-bottom: 40px;
 }
 
-.text-firstname {
+.label-firstname {
     margin-top: 55px;
+    font-weight: 600;
 }
 
 .firstname {
     color: #2596be;
-    font-weight: bold;
+    font-weight: 600;
 }
 
-.class-text-firstname {
+.class-label-firstname {
     text-decoration: none;
     color: #000;
     font-size: 20px;
@@ -212,7 +213,7 @@ h2:after {
 .main-nav li {
     display: inline-block;
     margin-left: 40px;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .main-nav li a:link,

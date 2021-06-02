@@ -11,7 +11,7 @@ const Apropos = () => {
                         <span className="intro">introduction</span>
                     </div>
                     <div className="col span_1_of_2">
-                        <h2>Je m’appelle Desty, je suis Développeur web.</h2>
+                        <h2>Je suis Desty - Développeur web.</h2>
                         <p className="long-copy">
                             Ayant nourri une attraction pour les technologies émergentes du web au cours de mes expériences professionnelles, je suis à la recherche active d’un stage de (2) mois en développement web à compter de mars 2021.
                             Curieux, rigoureux et persévérant et je souhaiterais intégrer votre équipe pour mettre en évidence ma polyvalence et mon ambition professionnelle.
@@ -36,9 +36,28 @@ const Apropos = () => {
                         </p>
                     </div>
                 </div>
-            </section>
 
-            <Footer />
+                <div className="row">
+                    <div className="col span_1_of_4">
+                        <span className="intro">Compétence</span>
+                    </div>
+                    <div className="col span_1_of_2">
+                        <h2>Web</h2>
+                        <ul className="#">
+                            <li>Responsive design</li>
+                            <li>développement</li>
+                        </ul>
+                    </div>
+                    <div className="col span_1_of_2">
+                        <h2>Conception & Analyse</h2>
+                        <ul className="#">
+                            <li>UML</li>
+                            <li>Méthode agile</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </section>
         </div>
     );
 }

@@ -7,8 +7,8 @@ import ErrorPage from '../errorPage';
 import { IconContext } from 'react-icons';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
-import '../../normalize.css';
-import '../../grid.css';
+/*import '../../normalize.css';
+import '../../grid.css';*/
 import '../../style.css';
 
 function App() {
